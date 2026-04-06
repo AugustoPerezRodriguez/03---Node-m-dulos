@@ -1,0 +1,21 @@
+{
+  "name": "tp03",
+  "version": "1.0.0",
+  "description": "tp03",
+  "homepage": "https://github.com/AugustoPerezRodriguez/03---Node-m-dulos#readme",
+  "bugs": {
+    "url": "https://github.com/AugustoPerezRodriguez/03---Node-m-dulos/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/AugustoPerezRodriguez/03---Node-m-dulos.git"
+  },
+  "license": "ISC",
+  "author": "Augusto Pr, Toti Epz, pIPE PLAT",
+  "type": "module",
+  "main": "Index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "ej1": "node src/modules/leerArchivo.js"
+  }
+}
