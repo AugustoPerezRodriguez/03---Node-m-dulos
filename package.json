@@ -16,6 +16,7 @@
   "main": "Index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "ej1": "node src/modules/leerArchivo.js"
+    "ej1": "node src/modules/leerArchivo.js",
+    "ej2": "node src/modules/ej02.js"
   }
 }
