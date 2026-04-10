@@ -1,5 +1,8 @@
+import dayjs from 'dayjs';
+
 function mostrarFechaHora() {
-    const hoy = require('dayjs');
+    const hoy = dayjs(); 
+
     console.log(`Fecha actual: ${hoy.format('DD/MM/YYYY')}`);
     console.log(`Hora actual: ${hoy.format('HH:mm')}`);
 }

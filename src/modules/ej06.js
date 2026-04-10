@@ -1,3 +1,5 @@
+import fs from 'fs'
+
 function generarCSV() {
     const productos = JSON.parse(fs.readFileSync('productos.json', 'utf8'));
     let csvContent = 'nombre,precio\n';

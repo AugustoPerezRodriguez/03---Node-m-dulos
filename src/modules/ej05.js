@@ -1,3 +1,5 @@
+import fs from 'fs'
+
 function buscarProducto(nombre) {
     const productos = JSON.parse(fs.readFileSync('productos.json', 'utf8'));
     
